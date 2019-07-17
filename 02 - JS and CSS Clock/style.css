@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
+    background: #040D12 url(https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg);
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -40,7 +40,11 @@ html {
   .hand {
     width: 50%;
     height: 6px;
-    background: black;
+    background: #436B4C;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
